@@ -25,7 +25,7 @@ public class MailServiceImpl implements MailService {
 //        javaMailSender.send(msg);
 
         final String username = "soumikpaulonly@gmail.com";
-        final String password = "mijwpeczyrpcefet\n";
+        final String password = "mykey";
 
         Properties prop = new Properties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
